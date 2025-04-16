@@ -1,0 +1,248 @@
+
+.head{
+    display: flex;
+    justify-content:space-between;
+    background-color: #0adbcf;
+width: 100%;
+padding: 25px 0px;
+position: sticky;
+background-color: #0adbcf;
+top: 0%;
+z-index: 1000
+;
+
+}
+.logo img{
+    width: 100px;
+    margin-left: 20px;
+}
+.details{
+    display: flex;
+    
+ gap: 30px;
+ margin-right: 20px;
+ color:white;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: lighter;
+ 
+
+}
+
+/* .background{
+    display: grid;
+    grid-template-rows: 1fr ;
+     gap: 0%;
+     
+    }
+.background1{
+    margin-top: 1px;
+    background-image:url(images/tropical-header.webp);
+
+   
+    width: 100%;
+   
+
+ background-repeat: no-repeat; 
+
+
+
+
+ background-size: 100%;
+}
+.background2{
+    margin-top: 1px;
+    background-image:url(images/image1.webp);
+
+ 
+ background-repeat: no-repeat;
+
+ background-size: 100%;
+} 
+.background3{
+    margin-top: 1px;
+    background-image:url(images/image1.webp);
+
+    padding: 100%;
+ background-repeat: no-repeat;
+
+ background-size: 100%;
+}   */
+
+.image{
+    margin-top: 1PX;
+}
+.image img{
+    width: 100%;
+    display: block;
+    
+} 
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    top: 50%;
+    margin-left: 100px;
+
+    
+}
+.imagetext {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    font-weight: lighter;
+    color: white;
+    
+
+}
+.learnmore button{
+    background-color: transparent;
+    padding: 10PX 43px;
+    border-radius: 30px;
+    border: 2PX solid white;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+} 
+
+.banner2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    top: 158%;
+    left: 27%;
+   
+    /* border-width: 2px solid rgb(1, 84, 1)#333; */
+    padding: 35px 140px; 
+    background-color: rgba(10, 91, 43, 0.8);
+    align-items: center;
+/* opacity: 80%; */
+border-radius: 100px;
+gap: 20px;
+
+
+
+}
+
+
+.image2 img{
+    display: block;
+    width: 100%;
+    margin: 0%;
+}
+
+
+.banner2 p {
+margin: 0%;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: lighter;
+}
+.banner2 h1{
+    margin: 0%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.learnmore2 button{
+    background-color: transparent;
+    padding: 10PX 43px;
+    border-radius: 30px;
+    border: 2PX solid white;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.banner3{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    top: 260%;
+    left: 27%;
+   
+    /* border-width: 2px solid rgb(1, 84, 1)#333; */
+    padding: 35px 75px; 
+    background-color: rgba(10, 91, 43, 0.8);
+    align-items: center;
+/* opacity: 80%; */
+border-radius: 100px;
+gap: 20px;
+
+
+
+}
+.image3 img{
+    display: block;
+    width: 100%;
+
+    
+}
+
+
+.banner3 p {
+    margin: 0%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+.banner3 h1{
+    margin: 0%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+
+.learnmore3 button{
+    background-color: transparent;
+    padding: 10PX 43px;
+    border-radius: 30px;
+    border: 2PX solid white;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.foot{
+    display: block;
+    background-color: #3e3e3e;
+padding: 10px;
+
+    
+  
+}
+.list{
+   
+    display: flex;
+justify-content: space-evenly;
+list-style: none;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+
+
+
+}
+.foot1{
+  
+    display: flex;
+    justify-content: center;
+    color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0%;
+    gap: 0%;
+    border: none;
+
+}
